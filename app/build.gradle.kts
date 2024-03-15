@@ -67,4 +67,9 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    // MLKit Document Scanner
+    implementation (libs.play.services.mlkit.document.scanner)
+
+    // Coil
+    implementation(libs.coil.compose)
 }
