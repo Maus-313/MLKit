@@ -119,3 +119,10 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
+@Composable
+@Preview
+
+fun Preview() {
+    MLKitTheme {}
+}
